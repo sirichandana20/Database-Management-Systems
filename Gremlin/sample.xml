@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+        http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+   
+    <graph id="Graph" edgedefault="directed">
+    
+        <node id="cs101">
+        </node>
+        
+        <node id="cs201">
+        </node>
+        
+        <node id="cs220">
+        </node>
+        
+        <node id="cs420">
+        </node>
+        
+        <node id="cs334">
+        </node>
+        
+        <node id="cs681">
+        </node>
+        
+        <node id="cs400">
+        </node>
+        
+        <node id="cs526">
+        </node>
+        
+        <edge id="black1" source="cs201" target="cs101" label="requires pre-req">
+        </edge>
+        
+       <edge id="black2" source="cs220" target="cs201" label="requires pre-req">
+        </edge>
+        
+        <edge id="black3" source="cs420" target="cs220" label="requires pre-req">
+        </edge>
+        
+        <edge id="black4" source="cs334" target="cs201" label="requires pre-req">
+        </edge>
+        
+        <edge id="black5" source="cs681" target="cs334" label="requires pre-req">
+        </edge>
+        
+        <edge id="black6" source="cs400" target="cs334" label="requires pre-req">
+        </edge>
+        
+        <edge id="black7" source="cs526" target="cs400" label="requires pre-req">
+        </edge>
+        
+        <edge id="orange1" source="cs420" target="cs220" label="is a co-req of ">
+        </edge>
+        
+        <edge id="orange2" source="cs526" target="cs400" label="is a co-req of ">
+        </edge>
+        
+    </graph>
+</graphml>
